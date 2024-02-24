@@ -18,198 +18,226 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <header class="top-line">
       <!-- site head Navigation bar -->
       <nav>
-        <!-- site head logo -->
-        <a class="web-studio" href
-          >Web<span class="partlogo-studio">Studio</span></a
-        >
-        <ul class="navigation-links">
-          <li><a href="first_link">Studio</a></li>
-          <li><a href="second_link">Portfolio</a></li>
-          <li><a href="third_link">Contacts</a></li>
+        <!-- top lone logo -->
+        <a class="logo" href>Web<span class="partlogo-studio">Studio</span></a>
+        <ul class="menu-nav">
+          <li><a class="nav-studio" href="">Studio</a></li>
+          <li><a class="nav-content" href="">Portfolio</a></li>
+          <li><a class="nav-content" href="">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contacts -->
       <address>
-        <ul>
+        <ul class="contacts-list">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+110001111111"> +11 (000) 111-11-11</a>
+            <a class="contacts" href="tel:+110001111111">
+              +11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
     <!-- Main body -->
     <main>
-      <!-- Sections1 -->
-      <section class="first-section">
-        <h1 class="header-one">Effective Solutions for Your Business</h1>
+      <!-- Hero-image -->
+      <section class="hero-image">
+        <h1 class="hero-image-text">Effective Solutions for Your Business</h1>
         <!-- button -->
-        <button type="button">Order Service</button>
+        <button type="button">
+          <span class="button-text">Order Service</span>
+        </button>
       </section>
-      <!-- Section2 -->
-      <section class="second-section">
+      <!-- Section1 -->
+      <section class="section-one">
         <h2>Advantages</h2>
-        <!-- Advantages -->
-        <ul class="advantages">
-          <!-- Advantage1 -->
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <!-- Features -->
+        <ul class="features">
+          <!-- feature1 -->
+          <li class="features-content">
+            <h3 class="feature-header">Strategy</h3>
+            <p class="feature-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <!-- Advantage2 -->
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <!-- feature2 -->
+          <li class="features-content">
+            <h3 class="feature-header">Punctuality</h3>
+            <p class="feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <!-- Advantage3 -->
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <!-- feature3 -->
+          <li class="features-content">
+            <h3 class="feature-header">Diligence</h3>
+            <p class="feature-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <!-- Advantage4 -->
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <!-- feature4 -->
+          <li class="features-content">
+            <h3 class="feature-header">Technologies</h3>
+            <p class="feature-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <!-- Section3 -->
-      <section class="third-section">
-        <h2>Our Team</h2>
-        <ul class="our-team">
-          <!-- Employee1 -->
-          <li>
+      <!-- Section2 -->
+      <section class="section-two">
+        <h2 class="section-two-header">Our Team</h2>
+        <ul class="section-two-content">
+          <!-- Team Card 1 -->
+          <li class="team-card">
             <img
               src="./images/Mark.jpg"
               alt="Mark Guerrero is a handsome man with beard and nice, confident smile"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <div class="team-card-box">
+              <h3 class="team-card-header">Mark Guerrero</h3>
+              <p class="team-card-text">Product Designer</p>
+            </div>
           </li>
-          <!-- Employee2 -->
-          <li>
+          <!-- Team Card 2 -->
+          <li class="team-card">
             <img
               src="./images/Tom.jpg"
               alt="Tom Ford a young man with wide, enthusiastic smile"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="team-card-box">
+              <h3 class="team-card-header">Tom Ford</h3>
+              <p class="team-card-text">Frontend Developer</p>
+            </div>
           </li>
-          <!-- Employee3 -->
-          <li>
+          <!-- Team Card 3 -->
+          <li class="team-card">
             <img
               src="./images/Camila.jpg"
               alt="Camila Garcia is a beautiful young woman with confident and challenging look"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <div class="team-card-box">
+              <h3 class="team-card-header">Camila Garcia</h3>
+              <p class="team-card-text">Marketing</p>
+            </div>
           </li>
-          <!-- Employee4 -->
-          <li>
+          <!-- Team Card 4 -->
+          <li class="team-card">
             <img
               src="./images/Daniel.jpg"
               alt="Daniel Wilson is a young and rather agreeable man"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <div class="team-card-box">
+              <h3 class="team-card-header">Daniel Wilson</h3>
+              <p class="team-card-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
-      <!-- Section 4 -->
-      <section class="fourth-section">
-        <h2 class="portfolio-name">Our Portfolio</h2>
-        <ul class="our-portfolio">
-          <!-- Project 1 -->
-          <li>
-            <img
-              src="./images/BankingApp.jpg"
-              alt="The interface of the app is white and purple"
-              width="360"
-              height="300"
-            />
-            <h3>Banking App</h3>
-            <p>App</p>
-          </li>
-          <!-- Project 2 -->
-          <li>
-            <img
-              src="./images/CashlessPayment.jpg"
-              alt="A man is using his phone to pay"
-              width="360"
-              height="300"
-            />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
-          </li>
-          <!-- Project 3 -->
-          <li>
-            <img
-              src="./images/MeditationApp.jpg"
-              alt="The interface of the app is colorful"
-              width="360"
-              height="300"
-            />
-            <h3>Meditation App</h3>
-            <p>App</p>
-          </li>
-          <!-- Project 4 -->
-          <li>
-            <img
-              src="./images/TaxiService.jpg"
-              alt="The driver in gloves is at the steering wheel with a phone in front of him"
-              width="360"
-              height="300"
-            />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
-          </li>
-          <!-- Project 5 -->
-          <li>
-            <img
-              src="./images/ScreenIllustration.jpg"
-              alt="the full moon over a futuristic city is in the screen of a phone"
-              width="360"
-              height="300"
-            />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
-          </li>
-          <!-- Project 6 -->
-          <li>
-            <img
-              src="./images/OnlineCourses.jpg"
-              alt="A young woman in orange sweater and orange glasses is looking happily at her phone"
-              width="360"
-              height="300"
-            />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
-          </li>
+      <!-- Section 3 -->
+      <section class="section-three">
+        <h2 class="section-three-header">Our Portfolio</h2>
+        <ul class="section-three-list">
+          <div class="section-three-row">
+            <!-- Project Card 1 -->
+            <li>
+              <img
+                src="./images/BankingApp.jpg"
+                alt="The interface of the app is white and purple"
+                width="360"
+                height="300"
+              />
+              <div class="card-content">
+                <h3>Banking App</h3>
+                <p>App</p>
+              </div>
+            </li>
+            <!-- Project Card 2 -->
+            <li>
+              <img
+                src="./images/CashlessPayment.jpg"
+                alt="A man is using his phone to pay"
+                width="360"
+                height="300"
+              />
+              <div class="card-content">
+                <h3>Cashless Payment</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <!-- Project Card 3 -->
+            <li>
+              <img
+                src="./images/MeditationApp.jpg"
+                alt="The interface of the app is colorful"
+                width="360"
+                height="300"
+              />
+              <div class="card-content">
+                <h3>Meditation App</h3>
+                <p>App</p>
+              </div>
+            </li>
+          </div>
+          <div class="section-three-row">
+            <!-- Project Card 4 -->
+            <li>
+              <img
+                src="./images/TaxiService.jpg"
+                alt="The driver in gloves is at the steering wheel with a phone in front of him"
+                width="360"
+                height="300"
+              />
+              <div class="card-content">
+                <h3>Taxi Service</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <!-- Project Card 5 -->
+            <li>
+              <img
+                src="./images/ScreenIllustration.jpg"
+                alt="the full moon over a futuristic city is in the screen of a phone"
+                width="360"
+                height="300"
+              />
+              <div class="card-content">
+                <h3>Screen Illustrations</h3>
+                <p>Design</p>
+              </div>
+            </li>
+            <!-- Project Card 6 -->
+            <li>
+              <img
+                src="./images/OnlineCourses.jpg"
+                alt="A young woman in orange sweater and orange glasses is looking happily at her phone"
+                width="360"
+                height="300"
+              />
+              <div class="card-content">
+                <h3>Online Courses</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+          </div>
         </ul>
       </section>
     </main>
