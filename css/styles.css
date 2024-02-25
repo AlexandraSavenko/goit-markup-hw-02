@@ -215,11 +215,6 @@ button:hover {
   padding-right: 16px;
 }
 /* Section 3 */
-.section-three-box {
-  padding-top: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
-}
 
 .section-three-header {
   font-weight: 700;
@@ -233,10 +228,7 @@ button:hover {
 .section-three-list {
   list-style-type: none;
 }
-.section-three-row {
-  display: flex;
-  flex-direction: row;
-}
+
 .card-content-header {
   font-weight: 500;
   font-size: 20px;
