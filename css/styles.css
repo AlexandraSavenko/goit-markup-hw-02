@@ -1,20 +1,17 @@
 body {
   background-color: #ffffff;
   font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 /* header */
-.top-line {
-  display: flex;
-  flex-direction: row;
-}
+
 /* top line logo */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -25,8 +22,6 @@ body {
 }
 /* nav links */
 .menu-nav {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
 }
 /* Studio */
@@ -78,10 +73,6 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-bottom: 292px;
-  padding-right: 472px;
 }
 .hero-image-text {
   font-weight: 700;
@@ -120,8 +111,6 @@ button:hover {
   padding: 120px 156px 120px 156px;
 }
 .features {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
 }
 .features-content {
@@ -129,7 +118,6 @@ button:hover {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
   width: 264px;
   height: 104px;
 }
@@ -155,9 +143,6 @@ button:hover {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
-  padding-top: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .section-two-header {
   font-weight: 700;
@@ -171,22 +156,11 @@ button:hover {
   margin-bottom: 72px;
 }
 .section-two-content {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
 }
 .team-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 .team-card-header {
@@ -194,7 +168,6 @@ button:hover {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-top: 0;
   margin-bottom: 8px;
@@ -207,12 +180,8 @@ button:hover {
   text-align: center;
   color: #434455;
   margin-top: 0;
-  padding: 0;
 }
 .team-card-box {
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 /* Section 3 */
 
@@ -250,11 +219,6 @@ button:hover {
   height: 312px;
 }
 .footer-content {
-  margin-top: 0;
-  padding-top: 100px;
-  padding-left: 156px;
-  padding-bottom: 100px;
-  padding-right: 1020px;
 }
 .partlogo-studio-footer {
   color: #f4f4fd;
