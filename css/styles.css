@@ -1,9 +1,16 @@
 body {
   background-color: #ffffff;
-  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 /* header */
 
 /* top line logo */
@@ -15,30 +22,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 .partlogo-studio {
   color: #2e2f42;
 }
 /* nav links */
 .menu-nav {
-  list-style-type: none;
 }
-/* Studio */
-.menu-nav .nav-studio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.menu-nav .nav-studio:hover {
-  color: #404bbf;
-}
-.menu-nav .nav-studio:active {
-  text-decoration: underline;
-}
+
 /* Portfolio Contacts */
 .menu-nav .nav-content {
   font-weight: 500;
@@ -46,15 +37,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
 .menu-nav .nav-content:hover {
   color: #404bbf;
 }
+.menu-nav .nav-content:active {
+  text-decoration: underline;
+  color: #404bbf;
+}
 
 /* Contacts */
+.header-contacts {
+  font-style: normal;
+}
 .contacts-list {
-  list-style-type: none;
 }
 .contacts {
   font-weight: 400;
@@ -62,37 +58,28 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
-  font-style: normal;
 }
 .contacts:hover {
   color: #404bbf;
 }
-/* hero-image */
+.contacts:active {
+  color: #404bbf;
+}
+/* Section 1 hero-image */
 .hero-image {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 .hero-image-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  line-height: 1.07;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 button {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 button:hover {
@@ -105,30 +92,14 @@ button:hover {
   letter-spacing: 0.04em;
   color: #fff;
 }
-/* Section 1 */
+/* Section 2 */
 
-.section-one {
-  padding: 120px 156px 120px 156px;
-}
-.features {
-  list-style-type: none;
-}
-.features-content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 264px;
-  height: 104px;
-}
 .features-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 0;
-  margin-bottom: 8px;
 }
 .feature-text {
   font-weight: 400;
@@ -136,31 +107,22 @@ button:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 0;
 }
-/* Section 2 */
-.section-two {
+/* Section 3 */
+.section-three {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
 }
-.section-two-header {
+.section-three-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
-  margin-top: 0;
-  margin-bottom: 72px;
 }
-.section-two-content {
-  list-style-type: none;
+.section-three-content {
 }
 .team-card {
-  width: 264px;
-  height: 380px;
   background: #fff;
 }
 .team-card-header {
@@ -169,33 +131,27 @@ button:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 0;
-  margin-bottom: 8px;
 }
 .team-card-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
-  margin-top: 0;
 }
 .team-card-box {
 }
-/* Section 3 */
+/* Section 4 */
 
-.section-three-header {
+.section-four-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
-.section-three-list {
-  list-style-type: none;
+.section-four-list {
 }
 
 .card-content-header {
@@ -215,8 +171,6 @@ button:hover {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 .footer-content {
 }
