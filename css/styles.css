@@ -28,17 +28,18 @@ a {
 }
 
 /* Portfolio Contacts */
-.menu-nav .nav-content {
+
+.nav-content {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-nav .nav-content:hover {
+.nav-content:hover {
   color: #404bbf;
 }
-.menu-nav .nav-content:active {
+.nav-content:focus {
   text-decoration: underline;
   color: #404bbf;
 }
@@ -57,7 +58,7 @@ a {
 .contacts:hover {
   color: #404bbf;
 }
-.contacts:active {
+.contacts:focus {
   color: #404bbf;
 }
 /* Section 1 hero-image */
