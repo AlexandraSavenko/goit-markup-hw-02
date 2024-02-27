@@ -143,23 +143,20 @@ button:focus {
   color: #2e2f42;
   text-align: center;
 }
-.section-four-list {
-}
-
-.card-content-header {
+.sf-li-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.card-content-text {
-  font-weight: 400;
+.sf-li-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* Footer */
 .footer {
   background-color: #2e2f42;
