@@ -26,9 +26,6 @@ a {
 .partlogo-studio {
   color: #2e2f42;
 }
-/* nav links */
-.menu-nav {
-}
 
 /* Portfolio Contacts */
 .menu-nav .nav-content {
@@ -49,8 +46,6 @@ a {
 /* Contacts */
 .header-contacts {
   font-style: normal;
-}
-.contacts-list {
 }
 .contacts {
   font-weight: 400;
@@ -150,6 +145,7 @@ button:hover {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 .section-four-list {
 }
@@ -172,7 +168,14 @@ button:hover {
 .footer {
   background-color: #2e2f42;
 }
-.footer-content {
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .partlogo-studio-footer {
   color: #f4f4fd;
